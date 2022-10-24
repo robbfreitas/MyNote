@@ -1,13 +1,12 @@
 body {
     font-family: sans-serif;
-    margin: 0 50px;
+    margin: 0 10px;
+    padding: 0;
 }
 
 .container {
     display: flex;
-    gap: 20px;
-    width: 90%;
-    
+    justify-content: space-between;
 }
 
 .right h3 {
