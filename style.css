@@ -11,6 +11,11 @@ h1 {
 .container {
     display: flex;
     justify-content: space-around;
+    align-items: baseline;
+}
+
+#input {
+    width: 60%;
 }
 
 .right h3 {
