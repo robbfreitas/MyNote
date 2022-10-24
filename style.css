@@ -4,9 +4,13 @@ body {
     padding: 0;
 }
 
+h1 {
+    text-align: center;
+}
+
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .right h3 {
@@ -15,7 +19,7 @@ body {
 }
 
 #posts {
-    width: 400px;
+    width: 100%;
 }
 
 i {
@@ -28,9 +32,13 @@ i {
     justify-content: space-around;
 }
 
+#posts div p {
+    padding: 10px;
+}
+
 .options {
     display: flex;
-    gap: 25px;
+    gap: 30px;
 }
 
 #msg {
