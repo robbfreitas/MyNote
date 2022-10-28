@@ -1,70 +1,82 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0 10px;
-    padding: 0;
-    background: url(bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 10px;
+  padding: 0;
+  background: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 h1 {
-    text-align: center;
-    font-size: 2em;
+  text-align: center;
+  font-size: 2em;
 }
 
 .titulo {
-    cursor: pointer;
-    color: #B22222;
-    text-shadow: 1px 1px 2px #000000
+  cursor: pointer;
+  color: #b22222;
+  text-shadow: 1px 1px 2px #000000;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
 }
 
 .left form label {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  transition-duration: 0.6s;
+}
+
+.button:hover {
+    background-color: #444343;
     color: white;
-    text-shadow: 2px 2px 4px #000000;
 }
 
 #input {
-    width: 60%;
+  width: 60%;
 }
 
 .right h3 {
-    display: flex;
-    justify-content: center;
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
-    
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 #posts {
-    width: 100%;
+  width: 100%;
 }
 
 i {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #posts div {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #posts div p {
-    padding: 10px;
+  padding: 10px;
 }
 
 .options {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 #msg {
-    color: red;
+  color: red;
 }
