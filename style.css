@@ -30,6 +30,13 @@ h1 {
   text-shadow: 2px 2px 4px #000000;
 }
 
+textarea {
+    background:url(img/textarea-background.png) center center no-repeat;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: azure;
+    resize: none;
+}
+
 .button {
   background-color: white;
   color: black;
